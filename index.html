@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ilya Sulim</title>
+    <link rel="icon" href="img/icon.png" type="image/png" sizes="32x32">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="title">
+                    <div class="prof">
+                        <h1 class="h1">Ilya Sulim</h1>
+                        <h2 class="h2-title">Junior front-end <br>developer</h2>
+                    </div>
+                    <div class="contacts">
+                        <ul class="contacts-ul">
+                            <li>Belarus, Soligorsk <img src="img/icon_location.svg" alt="location" width="24"></li>
+                            <li>+375 (29) 137 95 27 <img src="img/icon_phone.png" alt="phone" width="24"></li>
+                            <li>smiley745#0343 <img src="img/icon_discord.svg" alt="discord" width="24"></li>
+                            <li>smiley745@gmail.com <img src="img/icon_mail.svg" alt="mail" width="24"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="avatar"><img src="img/avatar.jpg" alt="avatar" width="150"></div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-ul">
+                    <li class="li"><a class="link" href="#about-me">About me</a></li>
+                    <li class="li"><a class="link" href="#skills">Skills</a></li>
+                    <li class="li"><a class="link" href="#code">Code example</a></li>
+                    <li class="li"><a class="link" href="#projects">Projects</a></li>
+                    <li class="li"><a class="link" href="#education">Education</a></li>
+                    <li class="li"><a class="link" href="#english">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="about-me" id="about-me">
+                <h2>About me</h2>
+                <p>I am an energy engineer, I work by profession. A couple of months ago I became interested in web
+                    development. I want to learn web development and become a front-end developer.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>JavaScript-basics</li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2>Code example</h2>
+                <pre><code>
+function getParticipants(handshakes){
+  let n = handshakes;
+  let x1 = 1 + (2*n)**(1/2)
+  let x2 = 1 - (2*n)**(1/2)
+  return n !=0 ? Math.round(Math.max(x1,x2)) : 0
+}</code></pre>
+            </section>
+            <section class="projects" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a class="pr-link" href="https://smiley745.github.io/rsschool-cv/">Rolling Scopes CV task #3</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2>Education</h2>
+                <p>Suchoi State Technical University of Gomel</p>
+            </section>
+            <section class="english" id="english">
+                <h2>Languages</h2>
+                <ul>
+                    <li>English - <b>A1</b> </li>
+                    <li>Russian - <b>native</b> </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div class="footer"><a class="fot-link" href="https://github.com/smiley745"><img src="img/github.png"
+                        alt="github" height="70"><span class="fot-linkk">smiley745</span></a><span>2023</span><a
+                    href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rsschool" height="70"></a></div>
+        </footer>
+    </div>
+</body>
+
+</html>
